@@ -2,28 +2,38 @@
 
 Data Structures can be defined a way for organising and storing data so that it can be used efficiently.
 
+
 ## Need of Data Structures
 -> It provides different ways of data organisation in different data structures based on requirement.
+
 -> It is used to increase the efficiency of operations to be performed on Data.
 
 -> Used to handle large amount of data effectively.
 
+
 ## Advantages of Data Structures
 -> Are necessary for design of efficient algorithms.
+
 -> provides means for management of large dataset such as databases or internet indexing services.
+
 -> Allows easier access and processing of data.
+
 -> It allows safe storage of information on a computer. 
+
 
 # Data Structure Classification 
 ![Data Structure Classification](../images/ds-introduction.png)
+
 
 ## Primitive Data Structures :
 Primitive data structures are those which are predefined way of storing data by the system. And the set of operations that can be performed on these data are also predefined.
 Int, char, float, double are Primitive Data Structures.
 
+
 ## Non-Primitive Data Structures :
 Non-primitive data structures are more complicated data structures and are derived from primitive data structures. They emphasize on grouping same or different data items with relationship between each data item.
 These include Array, Lists and more.
+
 
 ## Linear Data Structure
 A data structure is called linear if all of its elements are arranged in the linear order. In linear data structures, the elements are stored in non-hierarchical way where each element has the successors and predecessors except the first and last element.
@@ -39,6 +49,7 @@ Stack is a linear data structure which follows a particular order in which the o
 
 ### Queue :
 A Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO).
+
 
 ## Non-Linear Data Structure
 
