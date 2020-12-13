@@ -3,8 +3,9 @@
 Data Structures can be defined a way for organising and storing data so that it can be used efficiently.
 
 ## Need of Data Structures
--> It provides different ways of data organisation in different data structures based on requirement. \n
+-> It provides different ways of data organisation in different data structures based on requirement.
 -> It is used to increase the efficiency of operations to be performed on Data.
+
 -> Used to handle large amount of data effectively.
 
 ## Advantages of Data Structures
