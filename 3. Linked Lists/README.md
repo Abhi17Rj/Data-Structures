@@ -24,6 +24,7 @@ Deleting a node
 
 ### Implementation of Circular Linked List
 Circular Linked List is similar to Simple Linked List. And the last node stores the refrence to the first node.
+
 Addition of Node
 ![Adding a Node](../images/CircularAdd.gif)
 
