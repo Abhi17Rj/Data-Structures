@@ -21,3 +21,24 @@ Addition of Node
 
 Deleting a node
 ![Deleting a node](../images/LinkedListDel.gif)
+
+### Implementation of Circular Linked List
+Circular Linked List is similar to Simple Linked List. And the last node stores the refrence to the first node.
+Addition of Node
+![Adding a Node](../images/CircularAdd.gif)
+
+Deleting a Node
+![Deleting a Node](../images/CircularDel.gif)
+
+## Doubly Linked List
+In Doubly Linked List each node refers to its next and previous nodes.
+
+Adding a Node
+![Adding a Node](../images/DoublyAdd.gif)
+
+Deleting a Node
+![Deleting a Node](../images/DoublyDel.gif)
+
+
+## Complexity Analysis of Linked Lists
+![Complexity Analysis](../images/ComplexityLinkedList.png)
