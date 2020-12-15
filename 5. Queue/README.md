@@ -39,6 +39,7 @@ In a standard queue, a character is inserted at the back and deleted in the fron
 A circular queue is an improvement over the standard queue structure. In a standard queue, when an element is deleted, the vacant space is not reutilized. However, in a circular queue, vacant spaces are reutilized.
 
 While inserting elements, when you reach the end of an array and you need to insert another element, you must insert that element at the beginning (given that the first element has been deleted and the space is vacant).
+
 ![circular queue](../images/queue2.png)
 
 
