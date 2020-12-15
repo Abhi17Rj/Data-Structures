@@ -55,11 +55,11 @@ int main(){
 	// Linked List implementation of Stack
 	
 	Node* head = NULL;
-	insert(&head, 3);
-	insert(&head, 2);
-	insert(&head, 1);
+	push(&head, 3);
+	push(&head, 2);
+	push(&head, 1);
 	print(head);
-	insert(&head);
+	pop(&head);
 	print(head);
 	
 	return 0;
