@@ -29,6 +29,12 @@ Returns true if stack is empty, else false.
 
 ![Stack Operations](../images/stack.png)
 
+### Implementaion of stack using Linked List.
+>	Push() operation can be implemented by inserting the nodes at the head.
+
+>	Pop() operation can be implemented by deleting it from head and shifting head pointer to next node.
+
+>	Tower of Hanoi problem can be solved using stack.
 
 ## Complexity Analysis
 ![Complexity Analysis of Stack](../images/stack2.png)
