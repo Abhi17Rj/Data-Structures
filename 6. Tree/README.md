@@ -50,6 +50,7 @@ A Binary Tree is a tree for which every node has **atmost two child nodes**.
 ![Binary tree](../images/tree3.png)
 
 Types of Binary Tree :
+
 **a) Full Binary Tree :** A full Binary tree is a special type of binary tree in which every parent node/internal node has either two or no children.
 
 **b) Perfect Binary Tree :** A perfect binary tree is a type of binary tree in which every internal node has exactly two child nodes and all the leaf nodes are at the same level.
