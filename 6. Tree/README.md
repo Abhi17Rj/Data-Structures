@@ -46,7 +46,8 @@ If no constraint is placed on the hierarchy of the tree, a tree is called a gene
 
 ### 2. Binary Tree
 A Binary Tree is a tree for which every node has **atmost two child nodes**.
-![Binary tree](../images/tree3.jpg)
+
+![Binary tree](../images/tree3.png)
 
 Types of Binary Tree :
 **a) Full Binary Tree :** A full Binary tree is a special type of binary tree in which every parent node/internal node has either two or no children.
@@ -54,6 +55,7 @@ Types of Binary Tree :
 **b) Perfect Binary Tree :** A perfect binary tree is a type of binary tree in which every internal node has exactly two child nodes and all the leaf nodes are at the same level.
 
 **c) Complete Binary Tree :** A Binary Tree is a complete Binary Tree if all the levels are completely filled except possibly the last level and the last level has all keys as left as possible.
+
 ![Full - Perfect - Complete Binary Tree](../images/tree4.jpg)
 
 **d) Balanced Binary Tree :** A binary tree is balanced if the height of the tree is O(Log n) where n is the number of nodes. And the difference between the left and the right subtree for each node is either 0 or 1. Balanced Binary Search trees are performance-wise good as they provide O(log n) time for search, insert and delete. 
@@ -61,4 +63,5 @@ Types of Binary Tree :
 **e) Degenerate or Pathological Tree :** A degenerate or pathological tree is the tree having a single child either left or right.
 
 **f) Skewed Binary Tree :** A skewed binary tree is a pathological/degenerate tree in which the tree is either dominated by the left nodes or the right nodes. Thus, there are two types of skewed binary tree: **_left-skewed binary tree_** and **_right-skewed binary tree_**.
+
 ![Balanced - Degenerate - Pathological](../images/tree5.jpg)
