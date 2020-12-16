@@ -69,18 +69,51 @@ Types of Binary Tree :
 
 ### 3. Binary Search Tree
 A Binary Search Tree is a Binary Tree that satisfies BST invariant. i.e, The properties that separate a binary search tree from a regular binary tree are :
-**_ -> All nodes of left subtree are less than the root node._**
 
-**_ -> All nodes of right subtree are more than the root node._**
+**_-> All nodes of left subtree are less than the root node._**
 
-**_ ->Both subtrees of each node are also BSTs i.e. they have the above two properties._**
+**_-> All nodes of right subtree are more than the root node._**
+
+**_->Both subtrees of each node are also BSTs i.e. they have the above two properties._**
 
 ![Binary Search Tree](../images/bst.png)
 
-** When and Where is Binary Search Tree used ?**
+**When and Where is Binary Search Tree used ?**
 
 -> Implementation of some maps and set Abstract Data Types.
 
 -> Implementation of AVL trees, Red Black Trees, Splay Trees.
 
 -> Used in implementation of binary heaps.
+
+**Complexity Analysis of Binary Tree**
+
+![Complexity Analysis of Binary Tree](../images/bst2.png)
+
+**Adding Elements in BST**
+
+![Adding elements](../images/addBST.gif)
+
+**Deleting Elements in BST**
+**Case I :** In the first case, the node to be deleted is the leaf node. In such a case, simply delete the node from the tree.
+
+![Deleting leaf node](../images/del.gif)
+
+**Case II :** In the second case, the node to be deleted lies has a single child node. In such a case follow the steps below:
+
+1. Replace that node with its child node.
+
+2. Remove the child node from its original position.
+
+![Deleting single child node](../images/del2.gif)
+
+**Case III :** In the third case, the node to be deleted has two children. In such a case follow the steps below:
+
+1. Get the inorder successor of that node.
+
+2. Replace the node with the inorder successor.
+
+3. Remove the inorder successor from its original position.
+
+![Deleting node having subtrees](../images/del3.gif)
+
