@@ -66,3 +66,21 @@ Types of Binary Tree :
 **f) Skewed Binary Tree :** A skewed binary tree is a pathological/degenerate tree in which the tree is either dominated by the left nodes or the right nodes. Thus, there are two types of skewed binary tree: **_left-skewed binary tree_** and **_right-skewed binary tree_**.
 
 ![Balanced - Degenerate - Pathological](../images/tree5.jpg)
+
+### 3. Binary Search Tree
+A Binary Search Tree is a Binary Tree that satisfies BST invariant. i.e, The properties that separate a binary search tree from a regular binary tree are :
+**_ -> All nodes of left subtree are less than the root node._**
+
+**_ -> All nodes of right subtree are more than the root node._**
+
+**_ ->Both subtrees of each node are also BSTs i.e. they have the above two properties._**
+
+![Binary Search Tree](../images/bst.png)
+
+** When and Where is Binary Search Tree used ?**
+
+-> Implementation of some maps and set Abstract Data Types.
+
+-> Implementation of AVL trees, Red Black Trees, Splay Trees.
+
+-> Used in implementation of binary heaps.
