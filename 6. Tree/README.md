@@ -95,9 +95,8 @@ A Binary Search Tree is a Binary Tree that satisfies BST invariant. i.e, The pro
 ![Adding elements](../images/addBST.gif)
 
 **Deleting Elements in BST**
-**Case I :** In the first case, the node to be deleted is the leaf node. In such a case, simply delete the node from the tree.
 
-![Deleting leaf node](../images/del.gif)
+**Case I :** In the first case, the node to be deleted is the leaf node. In such a case, simply delete the node from the tree.
 
 **Case II :** In the second case, the node to be deleted lies has a single child node. In such a case follow the steps below:
 
@@ -105,7 +104,6 @@ A Binary Search Tree is a Binary Tree that satisfies BST invariant. i.e, The pro
 
 2. Remove the child node from its original position.
 
-![Deleting single child node](../images/del2.gif)
 
 **Case III :** In the third case, the node to be deleted has two children. In such a case follow the steps below:
 
@@ -115,5 +113,18 @@ A Binary Search Tree is a Binary Tree that satisfies BST invariant. i.e, The pro
 
 3. Remove the inorder successor from its original position.
 
-![Deleting node having subtrees](../images/del3.gif)
+![Deleting node having subtrees](../images/delBST.gif)
+
+
+### 3. a) AVL Tree
+AVL tree is a self-balancing binary search tree in which each node maintains extra information called a _balance factor_ whose value is either **-1, 0 or +1.**
+
+AVL tree got its name after its inventor Georgy Adelson-Velsky and Landis.
+
+Balance factor of a node in an AVL tree is the difference between the height of the left subtree and that of the right subtree of that node.
+
+**Balance Factor** = (Height of Left Subtree - Height of Right Subtree)
+
+![AVL tree example](../images/avl.png)
+
 
