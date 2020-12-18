@@ -90,9 +90,13 @@ A Binary Search Tree is a Binary Tree that satisfies BST invariant. i.e, The pro
 
 ![Complexity Analysis of Binary Tree](../images/bst2.png)
 
+.
+
 **Adding Elements in BST**
 
 ![Adding elements](../images/addBST.gif)
+
+.
 
 **Deleting Elements in BST**
 
@@ -115,6 +119,7 @@ A Binary Search Tree is a Binary Tree that satisfies BST invariant. i.e, The pro
 
 ![Deleting node having subtrees](../images/delBST.gif)
 
+.
 
 ### 3. a) AVL Tree
 AVL tree is a self-balancing binary search tree in which each node maintains extra information called a _balance factor_ whose value is either **-1, 0 or +1.**
