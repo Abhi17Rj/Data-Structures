@@ -132,4 +132,19 @@ Balance factor of a node in an AVL tree is the difference between the height of 
 
 ![AVL tree example](../images/avl.png)
 
+**Operations on AVL Tree**
+
+**1. Left Rotation** 
+
+**2. Right Rotation**
+
+![Left Right Rotation](../images/LeftRight.gif)
+
+**3. Left-Right Rotation**
+
+![Left-Right Rotation](../images/LR.gif)
+
+**4. Right-Left Rotation**
+
+![Right-Left Rotation](../images/Rl.gif)
 
