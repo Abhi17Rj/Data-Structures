@@ -115,3 +115,16 @@ A Binary Search Tree is a Binary Tree that satisfies BST invariant. i.e, The pro
 
 ![Deleting node having subtrees](../images/delBST.gif)
 
+
+### 3. a) AVL Tree
+AVL tree is a self-balancing binary search tree in which each node maintains extra information called a balance factor whose value is either -1, 0 or +1.
+
+AVL tree got its name after its inventor Georgy Adelson-Velsky and Landis.
+
+Balance factor of a node in an AVL tree is the difference between the height of the left subtree and that of the right subtree of that node.
+
+Balance Factor = (Height of Left Subtree - Height of Right Subtree)
+
+![AVL tree example](../images/avl.png)
+
+
