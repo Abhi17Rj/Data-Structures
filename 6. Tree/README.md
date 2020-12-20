@@ -35,7 +35,7 @@ A tree is a nonlinear hierarchical data structure that consists of nodes connect
 
 **Height of a Tree :** The height of a Tree is the height of the root node or the depth of the deepest node.
 
-
+<hr/>
 ## Types of Trees
 ![Types of trees](../images/tree2.jpg)
 
@@ -142,9 +142,9 @@ Balance factor of a node in an AVL tree is the difference between the height of 
 
 **3. Left-Right Rotation**
 
-![Left-Right Rotation](../images/LR.gif)
+![Left-Right Rotation](../images/lr.jpg)
 
 **4. Right-Left Rotation**
 
-![Right-Left Rotation](../images/Rl.gif)
+![Right-Left Rotation](../images/rl.jpg)
 
