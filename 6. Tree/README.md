@@ -45,6 +45,7 @@ A tree is a nonlinear hierarchical data structure that consists of nodes connect
 ### 1. General Tree
 If no constraint is placed on the hierarchy of the tree, a tree is called a general tree. Every node may have infinite numbers of children in General Tree. The tree is the super-set of all other trees.
 
+<hr/>
 
 ### 2. Binary Tree
 A Binary Tree is a tree for which every node has **atmost two child nodes**.
@@ -68,6 +69,8 @@ Types of Binary Tree :
 **f) Skewed Binary Tree :** A skewed binary tree is a pathological/degenerate tree in which the tree is either dominated by the left nodes or the right nodes. Thus, there are two types of skewed binary tree: **_left-skewed binary tree_** and **_right-skewed binary tree_**.
 
 ![Balanced - Degenerate - Pathological](../images/tree5.jpg)
+
+<hr/>
 
 ### 3. Binary Search Tree
 A Binary Search Tree is a Binary Tree that satisfies BST invariant. i.e, The properties that separate a binary search tree from a regular binary tree are :
@@ -121,7 +124,7 @@ A Binary Search Tree is a Binary Tree that satisfies BST invariant. i.e, The pro
 
 ![Deleting node having subtrees](../images/delBST.gif)
 
-.
+<hr/>
 
 ### 3. a) AVL Tree
 AVL tree is a self-balancing binary search tree in which each node maintains extra information called a _balance factor_ whose value is either **-1, 0 or +1.**
@@ -158,3 +161,14 @@ In right-left rotation, the arrangements are first shifted to the right and then
 
 ![Right-Left Rotation](../images/rl.JPG)
 
+**Inserting Nodes in AVL tree**
+
+![Insert node](../images/AVLinsert.JPG)
+
+**Deleting Nodes in AVL tree**
+
+![Delete node](../images/AVLdelete.JPG)
+
+<hr/>
+
+###3. b) Red Black Trees
