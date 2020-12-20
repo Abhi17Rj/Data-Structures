@@ -171,4 +171,4 @@ In right-left rotation, the arrangements are first shifted to the right and then
 
 <hr/>
 
-###3. b) Red Black Trees
+### 3. b) Red Black Trees
