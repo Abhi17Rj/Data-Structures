@@ -138,15 +138,23 @@ Balance factor of a node in an AVL tree is the difference between the height of 
 
 **1. Left Rotation** 
 
+In left-rotation, the arrangement of the nodes on the right is transformed into the arrangements on the left node.
+
 **2. Right Rotation**
+
+In right-rotation, the arrangement of the nodes on the left is transformed into the arrangements on the right node.
 
 ![Left Right Rotation](../images/LeftRight.gif)
 
 **3. Left-Right Rotation**
 
+In left-right rotation, the arrangements are first shifted to the left and then to the right.
+
 ![Left-Right Rotation](../images/lr.JPG)
 
 **4. Right-Left Rotation**
+
+In right-left rotation, the arrangements are first shifted to the right and then to the left.
 
 ![Right-Left Rotation](../images/rl.JPG)
 
