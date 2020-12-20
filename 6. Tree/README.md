@@ -163,11 +163,11 @@ In right-left rotation, the arrangements are first shifted to the right and then
 
 **Inserting Nodes in AVL tree**
 
-![Insert node](../images/AVLinsert.JPG)
+![Insert node](../images/AVLinsert.jpg)
 
 **Deleting Nodes in AVL tree**
 
-![Delete node](../images/AVLdelete.JPG)
+![Delete node](../images/AVLdelete.jpg)
 
 <hr/>
 
