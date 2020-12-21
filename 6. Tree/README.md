@@ -207,7 +207,7 @@ Left Right Case (LR rotation):<br>
 Right Right Case (RR rotation):<br>
 ![Red Black Tree Insert](../images/rbtinsert4.png) <br>
 Right Left Case (RL rotation):<br>
-![Red Black Tree Insert](../images/rbtinsert5.jpg) <br>
+![Red Black Tree Insert](../images/rbtinsert5.png) <br>
 <br>
 _Now, after these rotations, if the colours of the nodes are miss matching then recolour them._
 
