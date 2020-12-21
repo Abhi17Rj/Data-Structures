@@ -190,21 +190,24 @@ In the Red-Black tree, we use two tools to do the balancing.
 
 _a) Recoloring <br>
 b) Rotation_ <br>
+
 Recolouring is the change in colour of the node i.e. if it is red then change it to black and vice versa. It must be noted that the colour of the NULL node is always black. Moreover, we always try recolouring first, if recolouring doesn’t work, then we go for rotation. Following is a detailed algorithm. The algorithms have mainly two cases depending upon the colour of the uncle. If the uncle is red, we do recolour. If the uncle is black, we do rotations and/or recolouring.
+<br>
+[Red Black Tree Insert] (../images/rbtinsert.png) <br>
 
 _**Step 1:** First, you have to insert the node similarly to that in a binary tree and assign a red colour to it.<br>
 **Step 2:** If the node is a root node then change its colour to black, but if it does not then check the colour of the parent node. If its colour is black then don’t change the colour but if it is not i.e. it is red then check the colour of the node’s uncle. <br>
-**step 3:** If the node’s uncle has a red colour then change the colour of the node’s parent and uncle to black and that of grandfather to red colour and repeat the same process for him (i.e. grandfather). <br>
-[Red Black Tree Insert] (../images/rbtinsert1.jpg) <br>
-**Step 4:** But, if the node’s uncle has black colour then there are 4 possible cases:
+**step 3:** If the node’s uncle has a red colour then change the colour of the node’s parent and uncle to black and that of grandfather to red colour and repeat the same process for him (i.e. grandfather)._ <br>
+[Red Black Tree Insert] (../images/rbtinsert1.png) <br>
+_**Step 4:** But, if the node’s uncle has black colour then there are 4 possible cases:_
 Left Left Case (LL rotation):<br>
-[Red Black Tree Insert] (../images/rbtinsert2.jpg) <br>
+[Red Black Tree Insert] (../images/rbtinsert2.png) <br>
 Left Right Case (LR rotation):<br>
-[Red Black Tree Insert] (../images/rbtinsert3.jpg) <br>
+[Red Black Tree Insert] (../images/rbtinsert3.png) <br>
 Right Right Case (RR rotation):<br>
-[Red Black Tree Insert] (../images/rbtinsert4.jpg) <br>
+[Red Black Tree Insert] (../images/rbtinsert4.png) <br>
 Right Left Case (RL rotation):<br>
 [Red Black Tree Insert] (../images/rbtinsert5.jpg) <br>
 <br>
-Now, after these rotations, if the colours of the nodes are miss matching then recolour them._
+_Now, after these rotations, if the colours of the nodes are miss matching then recolour them._
 
