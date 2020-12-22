@@ -211,3 +211,27 @@ Right Left Case (RL rotation):<br>
 <br>
 _Now, after these rotations, if the colours of the nodes are miss matching then recolour them._
 
+
+**Deletion in Red Black Tree**
+<br>
+_**Step 1:** Perform standard BST deletion. <br>
+**Step 2:** **Case 1: Either u or v are red** <br>
+![RBT delete](../images/rbtdelete.png)<br>
+**Step 3: If Both u and v are Black.** <br>
+**3.1:** Color u as double black.<br>
+![RBT delete](../images/rbtdelete2.png)<br>
+**3.2:** The current node u is double black and it is not root. Let sibling of node be s.<br>
+**(a): If sibling s is black and at least one of sibling’s children is red, perform rotation(s). Let the red child of s be r. This case can be divided in four subcases depending upon positions of s and r.<br>
+…………..(i) Left Left Case (s is left child of its parent and r is left child of s or both children of s are red). This is mirror of right right case shown in below diagram.<br>
+…………..(ii) Left Right Case (s is left child of its parent and r is right child). This is mirror of right left case shown in below diagram.<br>
+…………..(iii) Right Right Case (s is right child of its parent and r is right child of s or both children of s are red)<br>
+![RBT delete](../images/rbtdelete3.png)<br>
+…………..(iv) Right Left Case (s is right child of its parent and r is left child of s)**<br>
+![RBT delete](../images/rbtdelete4.png)<br>
+**(b): If sibling is black and its both children are black, perform recoloring, and recur for the parent if parent is black.**<br>
+![RBT Delete](../images/rbdelete5.png)<br>
+**(c): If sibling is red, perform a rotation to move old sibling up, recolor the old sibling and parent. The new sibling is always black (See the below diagram). This mainly converts the tree to black sibling case (by rotation) and  leads to case (a) or (b). This case can be divided in two subcases.<br>
+…………..(i) Left Case (s is left child of its parent). This is mirror of right right case shown in below diagram. We right rotate the parent p.<br>
+…………..(iii) Right Case (s is right child of its parent). We left rotate the parent p.**<br>
+![RBT Delete](../images/rbdelete6.png)<br>
+**3.3)** If u is root, make it single black and return (Black height of complete tree reduces by 1).<br>
