@@ -214,6 +214,12 @@ _Now, after these rotations, if the colours of the nodes are miss matching then 
 
 **Deletion in Red Black Tree**
 <br>
+In insert operation, we check color of uncle to decide the appropriate case. In delete operation, we check color of sibling to decide the appropriate case.
+
+The main property that violates after insertion is two consecutive reds. In delete, the main violated property is, change of black height in subtrees as deletion of a black node may cause reduced black height in one root to leaf path.
+
+Deletion is fairly complex process.  To understand deletion, notion of double black is used.  When a black node is deleted and replaced by a black child, the child is marked as double black. The main task now becomes to convert this double black to single black.
+
 _**Step 1:** Perform standard BST deletion. <br>
 **Step 2:** **Case 1: Either u or v are red** <br>
 ![RBT delete](../images/rbtdelete.png)<br>
