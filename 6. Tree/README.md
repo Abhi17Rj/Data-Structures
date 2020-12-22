@@ -235,9 +235,9 @@ _**Step 1:** Perform standard BST deletion. <br>
 …………..(iv) Right Left Case (s is right child of its parent and r is left child of s)**<br>
 ![RBT delete](../images/rbtdelete4.png)<br>
 **(b): If sibling is black and its both children are black, perform recoloring, and recur for the parent if parent is black.**<br>
-![RBT Delete](../images/rbdelete5.png)<br>
+![RBT Delete](../images/rbtdelete5.png)<br>
 **(c): If sibling is red, perform a rotation to move old sibling up, recolor the old sibling and parent. The new sibling is always black (See the below diagram). This mainly converts the tree to black sibling case (by rotation) and  leads to case (a) or (b). This case can be divided in two subcases.<br>
 …………..(i) Left Case (s is left child of its parent). This is mirror of right right case shown in below diagram. We right rotate the parent p.<br>
 …………..(iii) Right Case (s is right child of its parent). We left rotate the parent p.**<br>
-![RBT Delete](../images/rbdelete6.png)<br>
-**3.3)** If u is root, make it single black and return (Black height of complete tree reduces by 1).<br>
+![RBT Delete](../images/rbtdelete6.png)<br>
+**3.3)** If u is root, make it single black and return (Black height of complete tree reduces by 1).<br>_
