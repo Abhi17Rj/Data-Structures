@@ -25,6 +25,10 @@ If the value of any element a[i][j] is 1, it represents that there is an edge co
 **_Since it is an undirected graph, for edge (0,2), we also need to mark edge (2,0); making the adjacency matrix symmetric about the diagonal._** <br>
 
 Edge lookup(checking if an edge exists between vertex A and vertex B) is extremely fast in adjacency matrix representation but we have to reserve space for every possible link between all vertices(V x V), so it requires more space.<br>
+**_Pros of Adjacency Matrix_** : _The basic operations like adding an edge, removing an edge and checking whether there is an edge from vertex i to vertex j are extremely time efficient, constant time operations.
+If the graph is dense and the number of edges is large, adjacency matrix should be the first choice. Even if the graph and the adjacency matrix is sparse, we can represent it using data structures for sparse matrices._ <br>
+**_Cons of Adjacency Matrix_** : _The VxV space requirement of the adjacency matrix makes it a memory hog. Graphs out in the wild usually don't have too many connections and this is the major reason why adjacency lists are the better choice for most tasks.
+While basic operations are easy, operations like inEdges and outEdges are expensive when using the adjacency matrix representation._<br>
 
 ### 2. Adjacency List
 An adjacency list represents a graph as an array of linked lists.<br>
