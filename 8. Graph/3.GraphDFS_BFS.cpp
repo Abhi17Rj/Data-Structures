@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stack>
 #include <list>
+#include <queue>
 
 class Graph{
 	
@@ -13,7 +14,7 @@ class Graph{
 		void addEdges(int source, int destination);
 		void DFS(int vertex);
 		void DFS2(int vertex);
-		
+		void BFS(int vertex);	
 };
 
 Graph::Graph(int vertices){
@@ -23,9 +24,11 @@ Graph::Graph(int vertices){
 }
 
 void Graph::addEdges(int src, int dest){
-	adjLists[src].push_front(dest);
+	adjLists[src].push_back(dest);
+	adjLists[dest].push_back(src);
 }
 
+// Implementation pf DFS using Stack
 void Graph::DFS(int vertex){
 	for(int i=0; i < numOfVertices; i++){
 		visited[i] = false;
@@ -50,6 +53,7 @@ void Graph::DFS(int vertex){
 	}
 }
 
+// Implementation of DFS using Recursion
 void Graph::DFS2(int vertex){
 	visited[vertex] = true;
 	std::list<int> adjList = adjLists[vertex];
@@ -64,18 +68,46 @@ void Graph::DFS2(int vertex){
 	}
 }
 
+// Implementation of BFS using Queue
+void Graph::BFS(int vertex){
+	for(int i=0; i<numOfVertices; ++i){
+		visited[i] = false;
+	}
+	
+	std::queue<int> q;
+	q.push(vertex);
+	visited[vertex] = true;
+	
+	std::list<int>::iterator i;
+	
+	while(!q.empty()){
+		int val = q.front();
+		std::cout << val << " ";
+		q.pop();
+		
+		for(i = adjLists[val].begin(); i != adjLists[val].end(); ++i){
+			if(!visited[*i]){
+				q.push(*i);
+				visited[*i] = true;
+			}
+		}
+	}
+}
+
 int main(){
 	
 	Graph g(6);
 	g.addEdges(0, 1);
 	g.addEdges(0, 2);
-	g.addEdges(1, 2);
-	g.addEdges(2, 3);
-	g.addEdges(3, 4);
+	g.addEdges(0, 3);
+	g.addEdges(2, 4);
 	g.addEdges(4, 5);
 	
+	std::cout << "\n DFS (Recurrsion): ";
 	g.DFS2(0);
-	std::cout << "\n";
+	std::cout << "\n DFS (Iterative): ";
 	g.DFS(0);
+	std::cout << "\n BFS : " ;
+	g.BFS(0);
 	return 0;
 }
